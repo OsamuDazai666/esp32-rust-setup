@@ -3,7 +3,7 @@
 
 ## Environment Setup for Linux
 
-- Make you have rust installed if you haven't already.
+- Make sure you have rust installed if you haven't already.
 
 ```bash
 $ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
@@ -46,7 +46,7 @@ $ . /home/{user_name}/export-esp.sh
 ```bash
 cargo generate esp-rs/esp-template
 ```
-OR
+*OR*
 - esp-idf-template:
 ```bash
 cargo generate esp-rs/esp-idf-template cargo
